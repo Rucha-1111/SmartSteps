@@ -1,17 +1,40 @@
 import { useLocation, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Button from "../components/Button";
+import { submitQuiz } from "../api/QuizAPI";
 
 const Quiz = () => {
-    const { state } = useLocation(); // contains { questions, totalTime }
+    const { state } = useLocation(); // contains { questions, subjects, totalTime }
     const navigate = useNavigate();
 
-    const { questions, totalTime } = state || {};
+    const { questions, subjects, totalTime } = state || {};
 
     const [currentIndex, setCurrentIndex] = useState(0);
     const [answers, setAnswers] = useState({});
     const [timeLeft, setTimeLeft] = useState(totalTime ? totalTime * 60 : 0); // seconds
     const [isCalculating, setIsCalculating] = useState(false);
+
+    const formatTime = (seconds) => {
+        const mins = Math.floor(seconds / 60);
+        const secs = seconds % 60;
+        return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+    };
+
+    const handleFinish = async () => {
+        setIsCalculating(true);
+        try {
+            const submission = {
+                subjects,
+                answers,
+            };
+            const results = await submitQuiz(submission);
+            navigate("/results", { state: results });
+        } catch (err) {
+            console.error(err);
+            alert("Failed to submit quiz. Please try again.");
+            setIsCalculating(false);
+        }
+    };
 
     // countdown timer
     useEffect(() => {
@@ -21,10 +44,7 @@ const Quiz = () => {
             setTimeLeft((prev) => {
                 if (prev <= 1) {
                     clearInterval(timer);
-                    setIsCalculating(true);
-                    setTimeout(() => {
-                        navigate("/results", { state: { questions, answers } });
-                    }, 2000);
+                    handleFinish();
                 }
                 return prev - 1;
             });
@@ -46,14 +66,8 @@ const Quiz = () => {
         if (currentIndex < questions.length - 1) {
             setCurrentIndex(currentIndex + 1);
         } else {
-            navigate("/results", { state: { questions, answers } });
+            handleFinish();
         }
-    };
-
-    const formatTime = (seconds) => {
-        const m = Math.floor(seconds / 60);
-        const s = seconds % 60;
-        return `${m.toString().padStart(2, "0")}:${s.toString().padStart(2, "0")}`;
     };
 
     const q = questions[currentIndex];

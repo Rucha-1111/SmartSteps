@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.quiz.quiz_app.dto.QuizRequest;
+import com.quiz.quiz_app.dto.QuizResultResponse;
+import com.quiz.quiz_app.dto.QuizSubmission;
 import com.quiz.quiz_app.model.Question;
 import com.quiz.quiz_app.service.QuizService;
 
@@ -41,8 +43,14 @@ public class QuizController {
 
         Map<String, Object> response = new HashMap<>();
         response.put("questions", quizWithoutAnswer);
+        response.put("subjects", request.getSubjects()); // include subjects for submission
         response.put("totalTime", request.getTotalTime());
 
         return response;
+    }
+
+    @PostMapping("/submit")
+    public QuizResultResponse submitQuiz(@RequestBody QuizSubmission submission) {
+        return quizService.calculateResults(submission.getSubjects(), submission.getAnswers());
     }
 }

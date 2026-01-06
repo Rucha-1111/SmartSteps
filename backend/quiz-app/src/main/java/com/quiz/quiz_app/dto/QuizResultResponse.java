@@ -7,11 +7,3 @@ public record QuizResultResponse(
     int total,
     List<QuestionWithAnswer> details
 ) {}
-
-// A small helper to send back the question + the correct answer ONLY at the end
-record QuestionWithAnswer(
-    int id,
-    String question,
-    String userAnswer,
-    String correctAnswer
-) {}

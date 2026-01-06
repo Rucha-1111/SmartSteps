@@ -2,7 +2,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import Button from "../components/Button";
 
 const Results = () => {
-    const { state } = useLocation(); // contains { questions, answers }
+    const { state } = useLocation(); // contains { score, total, details }
     const navigate = useNavigate();
 
     if (!state) {
@@ -10,28 +10,25 @@ const Results = () => {
         return null;
     }
 
-    const { questions, answers } = state;
-
-    // calculate score
-    let score = 0;
-    questions.forEach((q) => {
-        if (answers[q.id] === q.answer) score++;
-    });
+    const { score, total, details } = state;
 
     return (
         <div className="p-6">
             <h1 className="text-3xl font-bold mb-6">Quiz Results</h1>
 
             <p className="mb-4 text-xl">
-                You scored {score} / {questions.length}
+                You scored {score} / {total}
             </p>
 
             <div className="flex flex-col gap-4">
-                {questions.map((q) => (
-                    <div key={q.id} className="border p-3 rounded-lg">
-                        <p className="font-semibold">{q.question}</p>
-                        <p>Your answer: {answers[q.id] || "Not answered"}</p>
-                        <p>Correct answer: {q.answer}</p>
+                {details.map((d) => (
+                    <div key={d.id} className="border p-3 rounded-lg">
+                        <p className="font-semibold">{d.question}</p>
+                        <p>Your answer: {d.userAnswer || "Not answered"}</p>
+                        <p>Correct answer: {d.correctAnswer}</p>
+                        <p className={d.userAnswer === d.correctAnswer ? "text-green-600 font-semibold" : "text-red-600 font-semibold"}>
+                            {d.userAnswer === d.correctAnswer ? "Correct" : "Incorrect"}
+                        </p>
                     </div>
                 ))}
             </div>

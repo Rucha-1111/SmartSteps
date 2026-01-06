@@ -73,7 +73,7 @@ const Subjects = () => {
 
         try {
             const quizData = await startQuiz(quizConfig); // call your API
-            // quizData contains { questions: [...], totalTime: X }
+            // quizData contains { questions: [...], subjects: {...}, totalTime: X }
             navigate("/quiz", { state: quizData }); // pass data to Quiz page
         } catch (err) {
             console.error(err);

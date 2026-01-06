@@ -11,6 +11,8 @@ import org.springframework.stereotype.Service;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.quiz.quiz_app.dto.QuizResultResponse;
+import com.quiz.quiz_app.dto.QuestionWithAnswer;
 import com.quiz.quiz_app.model.Question;
 
 @Service
@@ -32,6 +34,23 @@ public class QuizService {
 
         Collections.shuffle(finalQuestions); // shuffle combined quiz
         return finalQuestions;
+    }
+
+    public QuizResultResponse calculateResults(Map<String, Integer> subjects, Map<Integer, String> answers) {
+        List<Question> questions = generateQuiz(subjects); // regenerate the same quiz
+
+        int score = 0;
+        List<QuestionWithAnswer> details = new ArrayList<>();
+
+        for (Question q : questions) {
+            String userAnswer = answers.get(q.getId());
+            boolean correct = q.getAnswer().equals(userAnswer);
+            if (correct) score++;
+
+            details.add(new QuestionWithAnswer(q.getId(), q.getQuestion(), userAnswer, q.getAnswer()));
+        }
+
+        return new QuizResultResponse(score, questions.size(), details);
     }
 
     private List<Question> loadQuestions(String subject) {
