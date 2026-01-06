@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "question": "What does API stand for?",
+        "options": [
+            "Application Programming Interface",
+            "Advanced Programming Interface",
+            "Application Process Integration",
+            "Automated Program Interaction"
+        ],
+        "answer": "Application Programming Interface"
+    },
+    {
+        "id": 2,
+        "question": "Which HTTP method is used to retrieve data from a server?",
+        "options": [
+            "POST",
+            "PUT",
+            "GET",
+            "DELETE"
+        ],
+        "answer": "GET"
+    },
+    {
+        "id": 3,
+        "question": "Which HTTP status code means \"Success\"?",
+        "options": [
+            "200",
+            "301",
+            "400",
+            "500"
+        ],
+        "answer": "200"
+    },
+    {
+        "id": 4,
+        "question": "Which data format is most commonly used in REST APIs?",
+        "options": [
+            "XML",
+            "JSON",
+            "CSV",
+            "HTML"
+        ],
+        "answer": "JSON"
+    },
+    {
+        "id": 5,
+        "question": "Which HTTP method is idempotent?",
+        "options": [
+            "POST",
+            "PATCH",
+            "PUT",
+            "CONNECT"
+        ],
+        "answer": "PUT"
+    },
+    {
+        "id": 6,
+        "question": "What does REST stand for?",
+        "options": [
+            "Remote Execution Standard Transfer",
+            "Representational State Transfer",
+            "Reliable State Transfer",
+            "Request State Technique"
+        ],
+        "answer": "Representational State Transfer"
+    },
+    {
+        "id": 7,
+        "question": "Which HTTP status code indicates \"Resource Not Found\"?",
+        "options": [
+            "200",
+            "401",
+            "404",
+            "500"
+        ],
+        "answer": "404"
+    },
+    {
+        "id": 8,
+        "question": "Which header is used to send authentication information?",
+        "options": [
+            "Content-Type",
+            "Accept",
+            "Authorization",
+            "Host"
+        ],
+        "answer": "Authorization"
+    },
+    {
+        "id": 9,
+        "question": "Which HTTP method is used to partially update a resource?",
+        "options": [
+            "PUT",
+            "POST",
+            "PATCH",
+            "GET"
+        ],
+        "answer": "PATCH"
+    },
+    {
+        "id": 10,
+        "question": "Which tool is commonly used to test APIs?",
+        "options": [
+            "Postman",
+            "Git",
+            "Docker",
+            "Jenkins"
+        ],
+        "answer": "Postman"
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "question": "Which of the following is used to print output in most programming languages?",
+        "options": [
+            "print()",
+            "echo()",
+            "System.out.println()",
+            "All of the above"
+        ],
+        "answer": "All of the above"
+    },
+    {
+        "id": 2,
+        "question": "Which of the following is a looping structure?",
+        "options": [
+            "if-else",
+            "for",
+            "switch",
+            "try-catch"
+        ],
+        "answer": "for"
+    },
+    {
+        "id": 3,
+        "question": "What is a variable in programming?",
+        "options": [
+            "A fixed value",
+            "A storage location to hold data",
+            "A type of function",
+            "A type of loop"
+        ],
+        "answer": "A storage location to hold data"
+    },
+    {
+        "id": 4,
+        "question": "Which of the following is a conditional statement?",
+        "options": [
+            "while",
+            "for",
+            "if-else",
+            "switch-case"
+        ],
+        "answer": "if-else"
+    },
+    {
+        "id": 5,
+        "question": "Which operator is used for equality comparison?",
+        "options": [
+            "=",
+            "==",
+            "===",
+            "!="
+        ],
+        "answer": "=="
+    },
+    {
+        "id": 6,
+        "question": "Which data type is used to store whole numbers?",
+        "options": [
+            "int",
+            "float",
+            "char",
+            "string"
+        ],
+        "answer": "int"
+    },
+    {
+        "id": 7,
+        "question": "Which symbol is used to end a statement in most programming languages like C, C++, and Java?",
+        "options": [
+            ".",
+            ";",
+            ":",
+            ","
+        ],
+        "answer": ";"
+    },
+    {
+        "id": 8,
+        "question": "What is the correct way to start a comment in most programming languages?",
+        "options": [
+            "// for single line",
+            "/* for multi-line */",
+            "# for scripting languages",
+            "All of the above"
+        ],
+        "answer": "All of the above"
+    },
+    {
+        "id": 9,
+        "question": "Which of the following is a function in programming?",
+        "options": [
+            "A reusable block of code",
+            "A variable",
+            "A loop",
+            "A data type"
+        ],
+        "answer": "A reusable block of code"
+    },
+    {
+        "id": 10,
+        "question": "Which of the following is used to get input from a user in Java?",
+        "options": [
+            "Scanner class",
+            "cin",
+            "input()",
+            "scanf()"
+        ],
+        "answer": "Scanner class"
+    }
+]

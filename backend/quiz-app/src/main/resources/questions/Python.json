@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "question": "Which of the following is used to define a function in Python?",
+        "options": [
+            "def",
+            "function",
+            "fun",
+            "define"
+        ],
+        "answer": "def"
+    },
+    {
+        "id": 2,
+        "question": "Which of the following is a valid way to create a list in Python?",
+        "options": [
+            "list = []",
+            "list = list()",
+            "list = [1, 2, 3]",
+            "All of the above"
+        ],
+        "answer": "All of the above"
+    },
+    {
+        "id": 3,
+        "question": "Which operator is used for exponentiation in Python?",
+        "options": [
+            "^",
+            "**",
+            "%",
+            "//"
+        ],
+        "answer": "**"
+    },
+    {
+        "id": 4,
+        "question": "Which keyword is used to handle exceptions in Python?",
+        "options": [
+            "try-except",
+            "catch",
+            "handle",
+            "error"
+        ],
+        "answer": "try-except"
+    },
+    {
+        "id": 5,
+        "question": "Which method is used to add an element at the end of a Python list?",
+        "options": [
+            "append()",
+            "insert()",
+            "add()",
+            "extend()"
+        ],
+        "answer": "append()"
+    },
+    {
+        "id": 6,
+        "question": "Which of the following is used to import a module in Python?",
+        "options": [
+            "import",
+            "include",
+            "require",
+            "use"
+        ],
+        "answer": "import"
+    },
+    {
+        "id": 7,
+        "question": "Which data type is used to store True or False values in Python?",
+        "options": [
+            "int",
+            "bool",
+            "str",
+            "float"
+        ],
+        "answer": "bool"
+    },
+    {
+        "id": 8,
+        "question": "Which method is used to convert a string to lowercase in Python?",
+        "options": [
+            "lower()",
+            "tolower()",
+            "downcase()",
+            "casefold()"
+        ],
+        "answer": "lower()"
+    },
+    {
+        "id": 9,
+        "question": "Which symbol is used for comments in Python?",
+        "options": [
+            "//",
+            "#",
+            "/* */",
+            "--"
+        ],
+        "answer": "#"
+    },
+    {
+        "id": 10,
+        "question": "Which function is used to get input from the user in Python?",
+        "options": [
+            "input()",
+            "scanf()",
+            "cin",
+            "read()"
+        ],
+        "answer": "input()"
+    }
+]

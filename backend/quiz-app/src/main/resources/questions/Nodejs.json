@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "question": "What is Node.js primarily used for?",
+        "options": [
+            "Frontend Development",
+            "Backend Development",
+            "Database Management",
+            "Desktop Applications"
+        ],
+        "answer": "Backend Development"
+    },
+    {
+        "id": 2,
+        "question": "Which of the following is used to include modules in Node.js?",
+        "options": [
+            "require()",
+            "import()",
+            "include()",
+            "module()"
+        ],
+        "answer": "require()"
+    },
+    {
+        "id": 3,
+        "question": "Which of the following is Node.js based on?",
+        "options": [
+            "Java Virtual Machine",
+            "V8 JavaScript Engine",
+            "Python Interpreter",
+            "Ruby Interpreter"
+        ],
+        "answer": "V8 JavaScript Engine"
+    },
+    {
+        "id": 4,
+        "question": "Which Node.js module is used to create an HTTP server?",
+        "options": [
+            "fs",
+            "http",
+            "url",
+            "path"
+        ],
+        "answer": "http"
+    },
+    {
+        "id": 5,
+        "question": "Which package manager is commonly used with Node.js?",
+        "options": [
+            "npm",
+            "pip",
+            "gem",
+            "composer"
+        ],
+        "answer": "npm"
+    },
+    {
+        "id": 6,
+        "question": "Which function is used to read a file asynchronously in Node.js?",
+        "options": [
+            "fs.readFileSync()",
+            "fs.readFile()",
+            "fs.openSync()",
+            "fs.read()"
+        ],
+        "answer": "fs.readFile()"
+    },
+    {
+        "id": 7,
+        "question": "Which method is used to start a Node.js server on a specific port?",
+        "options": [
+            "listen()",
+            "start()",
+            "run()",
+            "serve()"
+        ],
+        "answer": "listen()"
+    },
+    {
+        "id": 8,
+        "question": "Which of the following is a key feature of Node.js?",
+        "options": [
+            "Single-threaded, asynchronous, non-blocking I/O",
+            "Multi-threaded blocking I/O",
+            "Synchronous event-driven model",
+            "None of the above"
+        ],
+        "answer": "Single-threaded, asynchronous, non-blocking I/O"
+    },
+    {
+        "id": 9,
+        "question": "Which method is used to export a module in Node.js?",
+        "options": [
+            "module.exports",
+            "exports.module",
+            "export()",
+            "require.exports"
+        ],
+        "answer": "module.exports"
+    },
+    {
+        "id": 10,
+        "question": "Which of the following is used for dependency management in Node.js?",
+        "options": [
+            "package.json",
+            "config.json",
+            "node_modules.json",
+            "app.json"
+        ],
+        "answer": "package.json"
+    }
+]

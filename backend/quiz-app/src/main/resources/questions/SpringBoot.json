@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "question": "What is Spring Boot primarily used for?",
+        "options": [
+            "Frontend Development",
+            "Backend Development",
+            "Database Design",
+            "Mobile Development"
+        ],
+        "answer": "Backend Development"
+    },
+    {
+        "id": 2,
+        "question": "Which annotation is used to mark the main class of a Spring Boot application?",
+        "options": [
+            "@SpringBootApplication",
+            "@Component",
+            "@Configuration",
+            "@RestController"
+        ],
+        "answer": "@SpringBootApplication"
+    },
+    {
+        "id": 3,
+        "question": "Which file is commonly used to configure properties in Spring Boot?",
+        "options": [
+            "application.properties",
+            "config.yml",
+            "settings.json",
+            "boot.properties"
+        ],
+        "answer": "application.properties"
+    },
+    {
+        "id": 4,
+        "question": "Which annotation is used to create a RESTful controller in Spring Boot?",
+        "options": [
+            "@Controller",
+            "@RestController",
+            "@Service",
+            "@Repository"
+        ],
+        "answer": "@RestController"
+    },
+    {
+        "id": 5,
+        "question": "Which Spring Boot feature eliminates the need for extensive XML configuration?",
+        "options": [
+            "Auto-Configuration",
+            "Component Scan",
+            "Dependency Injection",
+            "Aspect-Oriented Programming"
+        ],
+        "answer": "Auto-Configuration"
+    },
+    {
+        "id": 6,
+        "question": "Which annotation is used to inject a dependency in Spring Boot?",
+        "options": [
+            "@Autowired",
+            "@Inject",
+            "@Resource",
+            "All of the above"
+        ],
+        "answer": "All of the above"
+    },
+    {
+        "id": 7,
+        "question": "Which dependency is commonly used to create web applications in Spring Boot?",
+        "options": [
+            "spring-boot-starter-web",
+            "spring-boot-starter-data-jpa",
+            "spring-boot-starter-security",
+            "spring-boot-starter-test"
+        ],
+        "answer": "spring-boot-starter-web"
+    },
+    {
+        "id": 8,
+        "question": "Which annotation is used to map HTTP GET requests in Spring Boot?",
+        "options": [
+            "@GetMapping",
+            "@PostMapping",
+            "@RequestMapping",
+            "@PutMapping"
+        ],
+        "answer": "@GetMapping"
+    },
+    {
+        "id": 9,
+        "question": "Which embedded server is commonly used by default in Spring Boot?",
+        "options": [
+            "Tomcat",
+            "Jetty",
+            "Undertow",
+            "GlassFish"
+        ],
+        "answer": "Tomcat"
+    },
+    {
+        "id": 10,
+        "question": "Which Spring Boot module is used for database access using JPA?",
+        "options": [
+            "spring-boot-starter-data-jpa",
+            "spring-boot-starter-web",
+            "spring-boot-starter-security",
+            "spring-boot-starter-test"
+        ],
+        "answer": "spring-boot-starter-data-jpa"
+    }
+]

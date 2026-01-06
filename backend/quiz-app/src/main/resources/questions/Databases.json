@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "question": "What does DBMS stand for?",
+        "options": [
+            "Database Management System",
+            "Data Binary Management System",
+            "Digital Base Management System",
+            "Database Memory System"
+        ],
+        "answer": "Database Management System"
+    },
+    {
+        "id": 2,
+        "question": "Which SQL command is used to retrieve data from a database?",
+        "options": [
+            "INSERT",
+            "UPDATE",
+            "SELECT",
+            "DELETE"
+        ],
+        "answer": "SELECT"
+    },
+    {
+        "id": 3,
+        "question": "Which of the following is a type of DBMS?",
+        "options": [
+            "Hierarchical",
+            "Network",
+            "Relational",
+            "All of the above"
+        ],
+        "answer": "All of the above"
+    },
+    {
+        "id": 4,
+        "question": "Which key uniquely identifies a record in a table?",
+        "options": [
+            "Foreign Key",
+            "Primary Key",
+            "Candidate Key",
+            "Alternate Key"
+        ],
+        "answer": "Primary Key"
+    },
+    {
+        "id": 5,
+        "question": "Which SQL command is used to remove a table from the database?",
+        "options": [
+            "DROP TABLE",
+            "DELETE TABLE",
+            "REMOVE TABLE",
+            "TRUNCATE TABLE"
+        ],
+        "answer": "DROP TABLE"
+    },
+    {
+        "id": 6,
+        "question": "Which constraint ensures that a column cannot have NULL values?",
+        "options": [
+            "UNIQUE",
+            "PRIMARY KEY",
+            "NOT NULL",
+            "FOREIGN KEY"
+        ],
+        "answer": "NOT NULL"
+    },
+    {
+        "id": 7,
+        "question": "Which SQL clause is used to filter records?",
+        "options": [
+            "WHERE",
+            "HAVING",
+            "ORDER BY",
+            "GROUP BY"
+        ],
+        "answer": "WHERE"
+    },
+    {
+        "id": 8,
+        "question": "Which of the following is a NoSQL database?",
+        "options": [
+            "MySQL",
+            "PostgreSQL",
+            "MongoDB",
+            "Oracle"
+        ],
+        "answer": "MongoDB"
+    },
+    {
+        "id": 9,
+        "question": "Which relationship type allows multiple records in one table to relate to multiple records in another table?",
+        "options": [
+            "One-to-One",
+            "One-to-Many",
+            "Many-to-Many",
+            "Self-Referencing"
+        ],
+        "answer": "Many-to-Many"
+    },
+    {
+        "id": 10,
+        "question": "Which command is used to remove all rows from a table without deleting the table itself?",
+        "options": [
+            "DELETE",
+            "DROP",
+            "TRUNCATE",
+            "REMOVE"
+        ],
+        "answer": "TRUNCATE"
+    }
+]

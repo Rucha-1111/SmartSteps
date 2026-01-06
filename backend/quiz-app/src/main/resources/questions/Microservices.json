@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "question": "What is a Microservice?",
+        "options": [
+            "A monolithic application",
+            "A small, independent service that performs a specific function",
+            "A type of database",
+            "A frontend framework"
+        ],
+        "answer": "A small, independent service that performs a specific function"
+    },
+    {
+        "id": 2,
+        "question": "Which communication style is commonly used between microservices?",
+        "options": [
+            "Synchronous (HTTP/REST)",
+            "Asynchronous (Messaging queues)",
+            "Both",
+            "None"
+        ],
+        "answer": "Both"
+    },
+    {
+        "id": 3,
+        "question": "Which database architecture is often used with microservices?",
+        "options": [
+            "Single centralized database",
+            "Database per service",
+            "Flat file database",
+            "None"
+        ],
+        "answer": "Database per service"
+    },
+    {
+        "id": 4,
+        "question": "Which pattern is used to handle failures in microservices?",
+        "options": [
+            "Singleton Pattern",
+            "Circuit Breaker Pattern",
+            "Observer Pattern",
+            "Factory Pattern"
+        ],
+        "answer": "Circuit Breaker Pattern"
+    },
+    {
+        "id": 5,
+        "question": "Which tool is commonly used for service discovery in microservices?",
+        "options": [
+            "Eureka",
+            "Kafka",
+            "Redis",
+            "Docker"
+        ],
+        "answer": "Eureka"
+    },
+    {
+        "id": 6,
+        "question": "Which architecture style is microservices based on?",
+        "options": [
+            "Monolithic",
+            "Service-Oriented Architecture (SOA)",
+            "Layered Architecture",
+            "Event-Driven Architecture"
+        ],
+        "answer": "Service-Oriented Architecture (SOA)"
+    },
+    {
+        "id": 7,
+        "question": "Which protocol is commonly used for communication between microservices?",
+        "options": [
+            "HTTP/REST",
+            "gRPC",
+            "Message Queues (RabbitMQ, Kafka)",
+            "All of the above"
+        ],
+        "answer": "All of the above"
+    },
+    {
+        "id": 8,
+        "question": "Which of the following is a key benefit of microservices?",
+        "options": [
+            "Tightly coupled modules",
+            "Independent deployment",
+            "Harder scalability",
+            "Single point of failure"
+        ],
+        "answer": "Independent deployment"
+    },
+    {
+        "id": 9,
+        "question": "Which tool is used for container orchestration of microservices?",
+        "options": [
+            "Docker Compose",
+            "Kubernetes",
+            "Git",
+            "Jenkins"
+        ],
+        "answer": "Kubernetes"
+    },
+    {
+        "id": 10,
+        "question": "Which challenge is commonly faced in microservices architecture?",
+        "options": [
+            "Distributed system complexity",
+            "Scalability issues",
+            "Independent deployment",
+            "Single codebase management"
+        ],
+        "answer": "Distributed system complexity"
+    }
+]

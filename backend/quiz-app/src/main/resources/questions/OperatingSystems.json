@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "question": "What is the main function of an operating system?",
+        "options": [
+            "Manage hardware resources",
+            "Design websites",
+            "Compile programs",
+            "Store data permanently"
+        ],
+        "answer": "Manage hardware resources"
+    },
+    {
+        "id": 2,
+        "question": "Which of the following is a type of operating system?",
+        "options": [
+            "Batch OS",
+            "Time-sharing OS",
+            "Real-time OS",
+            "All of the above"
+        ],
+        "answer": "All of the above"
+    },
+    {
+        "id": 3,
+        "question": "Which component of an OS manages processes?",
+        "options": [
+            "Process Scheduler",
+            "Memory Manager",
+            "File System",
+            "Device Drivers"
+        ],
+        "answer": "Process Scheduler"
+    },
+    {
+        "id": 4,
+        "question": "Which scheduling algorithm gives each process an equal fixed time slice?",
+        "options": [
+            "First-Come First-Served (FCFS)",
+            "Shortest Job Next (SJN)",
+            "Round Robin (RR)",
+            "Priority Scheduling"
+        ],
+        "answer": "Round Robin (RR)"
+    },
+    {
+        "id": 5,
+        "question": "Which memory management technique divides memory into fixed-size blocks?",
+        "options": [
+            "Paging",
+            "Segmentation",
+            "Contiguous Allocation",
+            "Fixed Partitioning"
+        ],
+        "answer": "Fixed Partitioning"
+    },
+    {
+        "id": 6,
+        "question": "Which of the following is a type of file system?",
+        "options": [
+            "FAT",
+            "NTFS",
+            "ext4",
+            "All of the above"
+        ],
+        "answer": "All of the above"
+    },
+    {
+        "id": 7,
+        "question": "Which of the following is used to prevent deadlock?",
+        "options": [
+            "Resource Allocation Graph",
+            "Banker’s Algorithm",
+            "Deadlock Detection Algorithm",
+            "All of the above"
+        ],
+        "answer": "All of the above"
+    },
+    {
+        "id": 8,
+        "question": "Which type of operating system is used in embedded systems?",
+        "options": [
+            "Batch OS",
+            "Real-time OS",
+            "Time-sharing OS",
+            "Distributed OS"
+        ],
+        "answer": "Real-time OS"
+    },
+    {
+        "id": 9,
+        "question": "What is a process in operating systems?",
+        "options": [
+            "A running instance of a program",
+            "A file stored on disk",
+            "A hardware component",
+            "A memory block"
+        ],
+        "answer": "A running instance of a program"
+    },
+    {
+        "id": 10,
+        "question": "Which OS component interacts directly with hardware?",
+        "options": [
+            "Kernel",
+            "Shell",
+            "User Interface",
+            "Application"
+        ],
+        "answer": "Kernel"
+    }
+]

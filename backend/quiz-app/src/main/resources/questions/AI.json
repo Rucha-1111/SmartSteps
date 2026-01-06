@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "question": "What does AI stand for?",
+        "options": [
+            "Automated Intelligence",
+            "Artificial Intelligence",
+            "Advanced Intelligence",
+            "Applied Intelligence"
+        ],
+        "answer": "Artificial Intelligence"
+    },
+    {
+        "id": 2,
+        "question": "Which of the following is a subset of AI?",
+        "options": [
+            "Machine Learning",
+            "Deep Learning",
+            "Natural Language Processing",
+            "All of the above"
+        ],
+        "answer": "All of the above"
+    },
+    {
+        "id": 3,
+        "question": "Which algorithm is commonly used for classification problems?",
+        "options": [
+            "Linear Regression",
+            "Logistic Regression",
+            "K-Means",
+            "Apriori"
+        ],
+        "answer": "Logistic Regression"
+    },
+    {
+        "id": 4,
+        "question": "What is supervised learning?",
+        "options": [
+            "Learning without labeled data",
+            "Learning with labeled data",
+            "Learning by trial and error",
+            "Learning using rewards"
+        ],
+        "answer": "Learning with labeled data"
+    },
+    {
+        "id": 5,
+        "question": "Which algorithm is used for clustering?",
+        "options": [
+            "K-Means",
+            "Decision Tree",
+            "Naive Bayes",
+            "Linear Regression"
+        ],
+        "answer": "K-Means"
+    },
+    {
+        "id": 6,
+        "question": "What does NLP stand for?",
+        "options": [
+            "Neural Learning Process",
+            "Natural Language Processing",
+            "Natural Learning Protocol",
+            "Network Language Program"
+        ],
+        "answer": "Natural Language Processing"
+    },
+    {
+        "id": 7,
+        "question": "Which model is inspired by the human brain?",
+        "options": [
+            "Decision Tree",
+            "Neural Network",
+            "Support Vector Machine",
+            "K-Nearest Neighbors"
+        ],
+        "answer": "Neural Network"
+    },
+    {
+        "id": 8,
+        "question": "Which learning method uses rewards and penalties?",
+        "options": [
+            "Supervised Learning",
+            "Unsupervised Learning",
+            "Reinforcement Learning",
+            "Deep Learning"
+        ],
+        "answer": "Reinforcement Learning"
+    },
+    {
+        "id": 9,
+        "question": "What is overfitting in machine learning?",
+        "options": [
+            "Model performs well on new data",
+            "Model performs poorly on training data",
+            "Model learns noise in the training data",
+            "Model ignores training data"
+        ],
+        "answer": "Model learns noise in the training data"
+    },
+    {
+        "id": 10,
+        "question": "Which evaluation metric is commonly used for classification models?",
+        "options": [
+            "Mean Squared Error",
+            "Accuracy",
+            "RMSE",
+            "R-squared"
+        ],
+        "answer": "Accuracy"
+    }
+]

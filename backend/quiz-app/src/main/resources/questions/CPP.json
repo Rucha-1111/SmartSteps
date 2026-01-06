@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "question": "Who developed C++?",
+        "options": [
+            "Dennis Ritchie",
+            "Bjarne Stroustrup",
+            "James Gosling",
+            "Ken Thompson"
+        ],
+        "answer": "Bjarne Stroustrup"
+    },
+    {
+        "id": 2,
+        "question": "Which of the following is used to define a class in C++?",
+        "options": [
+            "struct",
+            "class",
+            "object",
+            "define"
+        ],
+        "answer": "class"
+    },
+    {
+        "id": 3,
+        "question": "Which of the following is used for dynamic memory allocation in C++?",
+        "options": [
+            "malloc()",
+            "new",
+            "alloc()",
+            "create()"
+        ],
+        "answer": "new"
+    },
+    {
+        "id": 4,
+        "question": "Which of the following is the correct way to declare a constant in C++?",
+        "options": [
+            "const int a = 10;",
+            "int const a = 10;",
+            "#define a 10",
+            "All of the above"
+        ],
+        "answer": "All of the above"
+    },
+    {
+        "id": 5,
+        "question": "Which feature allows a function or an operator to have different forms in C++?",
+        "options": [
+            "Encapsulation",
+            "Polymorphism",
+            "Inheritance",
+            "Abstraction"
+        ],
+        "answer": "Polymorphism"
+    },
+    {
+        "id": 6,
+        "question": "Which of the following access specifiers makes members accessible only within the same class?",
+        "options": [
+            "public",
+            "private",
+            "protected",
+            "default"
+        ],
+        "answer": "private"
+    },
+    {
+        "id": 7,
+        "question": "Which operator is used to access members of an object through a pointer?",
+        "options": [
+            ".",
+            "->",
+            "*",
+            "&"
+        ],
+        "answer": "->"
+    },
+    {
+        "id": 8,
+        "question": "Which of the following is a correct way to inherit a class?",
+        "options": [
+            "class B : public A {}",
+            "class B inherits A {}",
+            "class B extends A {}",
+            "class B : A public {}"
+        ],
+        "answer": "class B : public A {}"
+    },
+    {
+        "id": 9,
+        "question": "Which feature allows bundling of data and functions in C++?",
+        "options": [
+            "Encapsulation",
+            "Polymorphism",
+            "Inheritance",
+            "Abstraction"
+        ],
+        "answer": "Encapsulation"
+    },
+    {
+        "id": 10,
+        "question": "Which of the following is used to release memory allocated by new?",
+        "options": [
+            "free()",
+            "delete",
+            "release()",
+            "dispose()"
+        ],
+        "answer": "delete"
+    }
+]

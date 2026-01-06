@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "question": "What is React primarily used for?",
+        "options": [
+            "Backend Development",
+            "Frontend Development",
+            "Database Management",
+            "Mobile OS"
+        ],
+        "answer": "Frontend Development"
+    },
+    {
+        "id": 2,
+        "question": "Which of the following is a feature of React?",
+        "options": [
+            "Virtual DOM",
+            "Two-way Data Binding",
+            "Server-side Rendering only",
+            "Database Management"
+        ],
+        "answer": "Virtual DOM"
+    },
+    {
+        "id": 3,
+        "question": "Which method is used to update the state in a class component?",
+        "options": [
+            "this.setState()",
+            "this.updateState()",
+            "setState()",
+            "update()"
+        ],
+        "answer": "this.setState()"
+    },
+    {
+        "id": 4,
+        "question": "Which hook is used for managing state in functional components?",
+        "options": [
+            "useEffect",
+            "useState",
+            "useRef",
+            "useContext"
+        ],
+        "answer": "useState"
+    },
+    {
+        "id": 5,
+        "question": "What is JSX in React?",
+        "options": [
+            "A templating language",
+            "JavaScript XML",
+            "CSS preprocessor",
+            "A type of function"
+        ],
+        "answer": "JavaScript XML"
+    },
+    {
+        "id": 6,
+        "question": "Which hook is used to perform side effects in functional components?",
+        "options": [
+            "useEffect",
+            "useState",
+            "useMemo",
+            "useReducer"
+        ],
+        "answer": "useEffect"
+    },
+    {
+        "id": 7,
+        "question": "Which of the following is used to pass data from parent to child component?",
+        "options": [
+            "state",
+            "props",
+            "context",
+            "refs"
+        ],
+        "answer": "props"
+    },
+    {
+        "id": 8,
+        "question": "Which method in class components is called after the component is mounted?",
+        "options": [
+            "componentDidMount()",
+            "componentWillMount()",
+            "render()",
+            "useEffect()"
+        ],
+        "answer": "componentDidMount()"
+    },
+    {
+        "id": 9,
+        "question": "Which tool is commonly used for React project bootstrapping?",
+        "options": [
+            "create-react-app",
+            "npm init",
+            "react-scripts",
+            "webpack"
+        ],
+        "answer": "create-react-app"
+    },
+    {
+        "id": 10,
+        "question": "Which of the following is used to optimize performance by memoizing components?",
+        "options": [
+            "React.memo",
+            "useState",
+            "useEffect",
+            "PureComponent"
+        ],
+        "answer": "React.memo"
+    }
+]

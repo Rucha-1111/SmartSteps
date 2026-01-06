@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "question": "What is JVM?",
+        "options": [
+            "Compiler",
+            "Interpreter",
+            "Virtual Machine",
+            "Operating System"
+        ],
+        "answer": "Virtual Machine"
+    },
+    {
+        "id": 2,
+        "question": "What is JDK?",
+        "options": [
+            "Java Database Kit",
+            "Java Development Kit",
+            "Java Debug Kit",
+            "Java Deployment Kit"
+        ],
+        "answer": "Java Development Kit"
+    },
+    {
+        "id": 3,
+        "question": "Which keyword is used to inherit a class in Java?",
+        "options": [
+            "implement",
+            "extends",
+            "inherits",
+            "super"
+        ],
+        "answer": "extends"
+    },
+    {
+        "id": 4,
+        "question": "Which of these is not a Java primitive data type?",
+        "options": [
+            "int",
+            "float",
+            "String",
+            "boolean"
+        ],
+        "answer": "String"
+    },
+    {
+        "id": 5,
+        "question": "What is method overloading?",
+        "options": [
+            "Same method name with different parameters",
+            "Same method name with same parameters",
+            "Different method name with same parameters",
+            "Overriding parent class method"
+        ],
+        "answer": "Same method name with different parameters"
+    },
+    {
+        "id": 6,
+        "question": "Which collection does not allow duplicate elements?",
+        "options": [
+            "List",
+            "Set",
+            "ArrayList",
+            "LinkedList"
+        ],
+        "answer": "Set"
+    },
+    {
+        "id": 7,
+        "question": "Which keyword is used to create an object in Java?",
+        "options": [
+            "class",
+            "object",
+            "new",
+            "create"
+        ],
+        "answer": "new"
+    },
+    {
+        "id": 8,
+        "question": "What is the default value of an int variable?",
+        "options": [
+            "0",
+            "null",
+            "undefined",
+            "1"
+        ],
+        "answer": "0"
+    },
+    {
+        "id": 9,
+        "question": "Which access modifier makes a member visible only within the same class?",
+        "options": [
+            "public",
+            "protected",
+            "private",
+            "default"
+        ],
+        "answer": "private"
+    },
+    {
+        "id": 10,
+        "question": "Which exception is thrown when dividing by zero in Java?",
+        "options": [
+            "NullPointerException",
+            "ArithmeticException",
+            "NumberFormatException",
+            "IOException"
+        ],
+        "answer": "ArithmeticException"
+    }
+]

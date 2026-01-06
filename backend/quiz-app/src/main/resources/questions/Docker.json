@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "question": "What is Docker primarily used for?",
+        "options": [
+            "Version Control",
+            "Containerization",
+            "Continuous Integration",
+            "Virtual Machines"
+        ],
+        "answer": "Containerization"
+    },
+    {
+        "id": 2,
+        "question": "Which command is used to list all Docker containers?",
+        "options": [
+            "docker ps",
+            "docker images",
+            "docker run",
+            "docker list"
+        ],
+        "answer": "docker ps"
+    },
+    {
+        "id": 3,
+        "question": "Which file is used to define a Docker image?",
+        "options": [
+            "Dockerfile",
+            "docker-compose.yml",
+            "config.json",
+            "container.yml"
+        ],
+        "answer": "Dockerfile"
+    },
+    {
+        "id": 4,
+        "question": "Which command is used to build a Docker image from a Dockerfile?",
+        "options": [
+            "docker build",
+            "docker create",
+            "docker run",
+            "docker compose"
+        ],
+        "answer": "docker build"
+    },
+    {
+        "id": 5,
+        "question": "Which command is used to start a Docker container?",
+        "options": [
+            "docker start",
+            "docker run",
+            "docker launch",
+            "docker init"
+        ],
+        "answer": "docker run"
+    },
+    {
+        "id": 6,
+        "question": "Which Docker command removes unused images, containers, and networks?",
+        "options": [
+            "docker clean",
+            "docker prune",
+            "docker rm",
+            "docker rmi"
+        ],
+        "answer": "docker prune"
+    },
+    {
+        "id": 7,
+        "question": "Which of the following is used to run multi-container Docker applications?",
+        "options": [
+            "Dockerfile",
+            "docker-compose",
+            "docker run",
+            "docker build"
+        ],
+        "answer": "docker-compose"
+    },
+    {
+        "id": 8,
+        "question": "Which command shows the running processes inside a Docker container?",
+        "options": [
+            "docker ps",
+            "docker top",
+            "docker exec",
+            "docker logs"
+        ],
+        "answer": "docker top"
+    },
+    {
+        "id": 9,
+        "question": "Which command is used to remove a Docker image?",
+        "options": [
+            "docker rmi",
+            "docker rm",
+            "docker remove",
+            "docker clean"
+        ],
+        "answer": "docker rmi"
+    },
+    {
+        "id": 10,
+        "question": "What is the default networking driver in Docker?",
+        "options": [
+            "bridge",
+            "host",
+            "overlay",
+            "macvlan"
+        ],
+        "answer": "bridge"
+    }
+]

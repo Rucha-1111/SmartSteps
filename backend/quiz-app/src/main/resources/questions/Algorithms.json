@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "question": "What is the time complexity of Binary Search?",
+        "options": [
+            "O(n)",
+            "O(log n)",
+            "O(n log n)",
+            "O(1)"
+        ],
+        "answer": "O(log n)"
+    },
+    {
+        "id": 2,
+        "question": "Which sorting algorithm has the best average-case time complexity?",
+        "options": [
+            "Bubble Sort",
+            "Selection Sort",
+            "Merge Sort",
+            "Insertion Sort"
+        ],
+        "answer": "Merge Sort"
+    },
+    {
+        "id": 3,
+        "question": "What is the worst-case time complexity of Quick Sort?",
+        "options": [
+            "O(n log n)",
+            "O(log n)",
+            "O(n^2)",
+            "O(n)"
+        ],
+        "answer": "O(n^2)"
+    },
+    {
+        "id": 4,
+        "question": "Which data structure is used in Breadth First Search (BFS)?",
+        "options": [
+            "Stack",
+            "Queue",
+            "Heap",
+            "Tree"
+        ],
+        "answer": "Queue"
+    },
+    {
+        "id": 5,
+        "question": "Which data structure is used in Depth First Search (DFS)?",
+        "options": [
+            "Queue",
+            "Array",
+            "Stack",
+            "Linked List"
+        ],
+        "answer": "Stack"
+    },
+    {
+        "id": 6,
+        "question": "Which algorithm technique is used in Merge Sort?",
+        "options": [
+            "Greedy",
+            "Dynamic Programming",
+            "Divide and Conquer",
+            "Backtracking"
+        ],
+        "answer": "Divide and Conquer"
+    },
+    {
+        "id": 7,
+        "question": "What is the space complexity of Merge Sort?",
+        "options": [
+            "O(1)",
+            "O(log n)",
+            "O(n)",
+            "O(n log n)"
+        ],
+        "answer": "O(n)"
+    },
+    {
+        "id": 8,
+        "question": "Which traversal of a Binary Search Tree gives sorted order?",
+        "options": [
+            "Preorder",
+            "Postorder",
+            "Inorder",
+            "Level Order"
+        ],
+        "answer": "Inorder"
+    },
+    {
+        "id": 9,
+        "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+        "options": [
+            "DFS",
+            "BFS",
+            "Dijkstra’s Algorithm",
+            "Prim’s Algorithm"
+        ],
+        "answer": "Dijkstra’s Algorithm"
+    },
+    {
+        "id": 10,
+        "question": "Which sorting algorithm is stable?",
+        "options": [
+            "Quick Sort",
+            "Heap Sort",
+            "Merge Sort",
+            "Selection Sort"
+        ],
+        "answer": "Merge Sort"
+    }
+]

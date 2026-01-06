@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "question": "What does NLP stand for?",
+        "options": [
+            "Neural Learning Process",
+            "Natural Language Processing",
+            "Network Language Protocol",
+            "New Language Programming"
+        ],
+        "answer": "Natural Language Processing"
+    },
+    {
+        "id": 2,
+        "question": "Which of the following is an example of NLP task?",
+        "options": [
+            "Text Classification",
+            "Speech Recognition",
+            "Machine Translation",
+            "All of the above"
+        ],
+        "answer": "All of the above"
+    },
+    {
+        "id": 3,
+        "question": "Which technique is used to convert text into numerical features for NLP?",
+        "options": [
+            "Tokenization",
+            "Stemming",
+            "Vectorization",
+            "Lemmatization"
+        ],
+        "answer": "Vectorization"
+    },
+    {
+        "id": 4,
+        "question": "Which of the following is used to reduce words to their base form?",
+        "options": [
+            "Tokenization",
+            "Stemming",
+            "Vectorization",
+            "POS tagging"
+        ],
+        "answer": "Stemming"
+    },
+    {
+        "id": 5,
+        "question": "Which NLP task identifies the grammatical role of words?",
+        "options": [
+            "POS tagging",
+            "NER",
+            "Sentiment Analysis",
+            "Machine Translation"
+        ],
+        "answer": "POS tagging"
+    },
+    {
+        "id": 6,
+        "question": "Which NLP model architecture is widely used for text generation?",
+        "options": [
+            "RNN",
+            "LSTM",
+            "Transformer",
+            "CNN"
+        ],
+        "answer": "Transformer"
+    },
+    {
+        "id": 7,
+        "question": "What is Named Entity Recognition (NER) in NLP?",
+        "options": [
+            "Identifying parts of speech",
+            "Extracting names, locations, organizations from text",
+            "Classifying sentiment",
+            "Translating text"
+        ],
+        "answer": "Extracting names, locations, organizations from text"
+    },
+    {
+        "id": 8,
+        "question": "Which technique splits text into words or subwords?",
+        "options": [
+            "Tokenization",
+            "Lemmatization",
+            "Vectorization",
+            "Embedding"
+        ],
+        "answer": "Tokenization"
+    },
+    {
+        "id": 9,
+        "question": "Which evaluation metric is commonly used for text classification?",
+        "options": [
+            "Accuracy",
+            "BLEU Score",
+            "Perplexity",
+            "IoU"
+        ],
+        "answer": "Accuracy"
+    },
+    {
+        "id": 10,
+        "question": "Which word embedding technique captures semantic meaning?",
+        "options": [
+            "Bag of Words",
+            "TF-IDF",
+            "Word2Vec",
+            "One-hot encoding"
+        ],
+        "answer": "Word2Vec"
+    }
+]

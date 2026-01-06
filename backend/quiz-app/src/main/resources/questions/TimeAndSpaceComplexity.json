@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "question": "What is the time complexity of accessing an element in an array by index?",
+        "options": [
+            "O(1)",
+            "O(n)",
+            "O(log n)",
+            "O(n log n)"
+        ],
+        "answer": "O(1)"
+    },
+    {
+        "id": 2,
+        "question": "What is the worst-case time complexity of linear search?",
+        "options": [
+            "O(1)",
+            "O(n)",
+            "O(log n)",
+            "O(n^2)"
+        ],
+        "answer": "O(n)"
+    },
+    {
+        "id": 3,
+        "question": "What is the average-case time complexity of binary search in a sorted array?",
+        "options": [
+            "O(1)",
+            "O(n)",
+            "O(log n)",
+            "O(n log n)"
+        ],
+        "answer": "O(log n)"
+    },
+    {
+        "id": 4,
+        "question": "What is the space complexity of a recursive function with depth n?",
+        "options": [
+            "O(1)",
+            "O(n)",
+            "O(log n)",
+            "O(n^2)"
+        ],
+        "answer": "O(n)"
+    },
+    {
+        "id": 5,
+        "question": "What is the time complexity of inserting an element at the end of an array (without resizing)?",
+        "options": [
+            "O(1)",
+            "O(n)",
+            "O(log n)",
+            "O(n log n)"
+        ],
+        "answer": "O(1)"
+    },
+    {
+        "id": 6,
+        "question": "What is the worst-case time complexity of quicksort?",
+        "options": [
+            "O(n log n)",
+            "O(n^2)",
+            "O(log n)",
+            "O(n)"
+        ],
+        "answer": "O(n^2)"
+    },
+    {
+        "id": 7,
+        "question": "What is the best-case time complexity of merge sort?",
+        "options": [
+            "O(n)",
+            "O(n log n)",
+            "O(log n)",
+            "O(n^2)"
+        ],
+        "answer": "O(n log n)"
+    },
+    {
+        "id": 8,
+        "question": "What is the space complexity of merge sort?",
+        "options": [
+            "O(1)",
+            "O(n)",
+            "O(log n)",
+            "O(n log n)"
+        ],
+        "answer": "O(n)"
+    },
+    {
+        "id": 9,
+        "question": "What is the time complexity of searching in a balanced binary search tree (BST)?",
+        "options": [
+            "O(n)",
+            "O(log n)",
+            "O(1)",
+            "O(n log n)"
+        ],
+        "answer": "O(log n)"
+    },
+    {
+        "id": 10,
+        "question": "What is the space complexity of storing n elements in a hash table?",
+        "options": [
+            "O(1)",
+            "O(n)",
+            "O(log n)",
+            "O(n^2)"
+        ],
+        "answer": "O(n)"
+    }
+]

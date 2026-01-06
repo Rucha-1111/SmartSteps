@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "question": "Who developed the C programming language?",
+        "options": [
+            "Dennis Ritchie",
+            "Bjarne Stroustrup",
+            "James Gosling",
+            "Ken Thompson"
+        ],
+        "answer": "Dennis Ritchie"
+    },
+    {
+        "id": 2,
+        "question": "Which of the following is the correct way to declare an integer variable?",
+        "options": [
+            "int 1var;",
+            "int var;",
+            "integer var;",
+            "var int;"
+        ],
+        "answer": "int var;"
+    },
+    {
+        "id": 3,
+        "question": "Which symbol is used to denote a pointer in C?",
+        "options": [
+            "&",
+            "*",
+            "%",
+            "#"
+        ],
+        "answer": "*"
+    },
+    {
+        "id": 4,
+        "question": "Which function is used to read a string from the user?",
+        "options": [
+            "scanf()",
+            "gets()",
+            "fgets()",
+            "All of the above"
+        ],
+        "answer": "All of the above"
+    },
+    {
+        "id": 5,
+        "question": "What is the size of an int in a 32-bit system?",
+        "options": [
+            "2 bytes",
+            "4 bytes",
+            "8 bytes",
+            "Depends on compiler"
+        ],
+        "answer": "4 bytes"
+    },
+    {
+        "id": 6,
+        "question": "Which of the following is a looping structure in C?",
+        "options": [
+            "for",
+            "while",
+            "do-while",
+            "All of the above"
+        ],
+        "answer": "All of the above"
+    },
+    {
+        "id": 7,
+        "question": "Which header file is required for printf() and scanf()?",
+        "options": [
+            "stdlib.h",
+            "stdio.h",
+            "string.h",
+            "math.h"
+        ],
+        "answer": "stdio.h"
+    },
+    {
+        "id": 8,
+        "question": "Which operator is used to access the value at the address stored in a pointer?",
+        "options": [
+            "&",
+            "*",
+            "->",
+            "."
+        ],
+        "answer": "*"
+    },
+    {
+        "id": 9,
+        "question": "What is the correct way to declare a function that returns an integer?",
+        "options": [
+            "int func();",
+            "func int();",
+            "integer func();",
+            "function int();"
+        ],
+        "answer": "int func();"
+    },
+    {
+        "id": 10,
+        "question": "Which of the following is used to terminate a loop immediately?",
+        "options": [
+            "continue",
+            "exit",
+            "break",
+            "stop"
+        ],
+        "answer": "break"
+    }
+]
